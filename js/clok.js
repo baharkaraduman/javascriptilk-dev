@@ -14,9 +14,9 @@ function showTime() {
   let days = ["Pazar", "Pazartesi", "Salı", "Çarşamba", "Perşembe", "Cuma", "Cumartesi"]
   let daysName = days[dayNumber]
 
-   hours = hours < 10 ? "0" + h : h;
-   minutes = minutes < 10 ? "0" + m : m;
-   seconds = seconds < 10 ? "0" + s : s;
+   hours = hours < 10 ? "0" + hours : hours;
+   minutes = minutes < 10 ? "0" + minutes : minutes;
+   seconds = seconds < 10 ? "0" + second : seconds;
 
 
   let time = hours + ":" + m + ":" + s + " " + daysName;
